@@ -22,7 +22,7 @@ const Recieve=({
         <Wrapper>
             <Content>
                 <QRContainer>
-                    <img src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=${walletAddress}"/>
+                    <img src={`https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=${walletAddress}`}/>
                 </QRContainer>
                 <Divider/>
                 <Row>
