@@ -68,7 +68,7 @@ const Content = styled.div`
 `
 
 const QRContainer = styled.div`
- padding: 1.9rem 2.0rem;
+ padding: 1.8rem 2.0rem;
  flex: 1;
  display: grid;
  place-items: center;
